@@ -1,10 +1,11 @@
-import { Container } from './Homepage.styled';
+import SliderSection from './components/SliderSection/SliderSection';
+import * as s from './Homepage.styled';
 
 const Homepage = () => {
   return (
-    <>
-      <Container>Test</Container>
-    </>
+    <s.Container>
+      <SliderSection />
+    </s.Container>
   );
 };
 
