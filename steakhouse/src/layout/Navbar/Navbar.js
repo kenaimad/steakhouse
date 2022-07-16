@@ -12,7 +12,7 @@ const Navbar = () => {
       <s.NavContainer>
         <s.LinksContainer>
           <img src={require('./icons/logo.png')} alt="Logo icon" />
-          <s.StyledLink activeClassName="selected" to="/steaks">Steaks</s.StyledLink>
+          <s.StyledLink to="/steaks">Steaks</s.StyledLink>
           <s.StyledLink to="/burgers">Burgers</s.StyledLink>
           <s.StyledLink to="/fries">French Fries</s.StyledLink>
           <s.StyledLink to="/drinks">Drinks</s.StyledLink>
