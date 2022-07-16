@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { NavLink as Link } from 'react-router-dom';
 
 export const NavContainer = styled.div`
   display: flex;
@@ -19,11 +19,20 @@ export const LinksContainer = styled.div`
 export const StyledLink = styled(Link)`
   margin: 0 30px;
   text-decoration: none;
+  color: black;
   font-weight: 400;
   font-size: 14px;
-  //font-family: 
+  transition: all 0.2s ease-in;
+  //font-family:
 
-`
+  &:hover {
+    
+  }
+
+  &.active {
+    
+  }
+`;
 
 export const ButtonsContainer = styled.div`
   display: flex;

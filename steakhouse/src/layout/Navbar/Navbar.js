@@ -12,12 +12,12 @@ const Navbar = () => {
       <s.NavContainer>
         <s.LinksContainer>
           <img src={require('./icons/logo.png')} alt="Logo icon" />
-          <s.StyledLink to="#">Steaks</s.StyledLink>
-          <s.StyledLink to="#">Burgers</s.StyledLink>
-          <s.StyledLink to="#">French Fries</s.StyledLink>
-          <s.StyledLink to="#">Drinks</s.StyledLink>
-          <s.StyledLink to="#">Gdzie dowozimy?</s.StyledLink>
-          <s.StyledLink to="#">Kontakt</s.StyledLink>
+          <s.StyledLink activeClassName="selected" to="/steaks">Steaks</s.StyledLink>
+          <s.StyledLink to="/burgers">Burgers</s.StyledLink>
+          <s.StyledLink to="/fries">French Fries</s.StyledLink>
+          <s.StyledLink to="/drinks">Drinks</s.StyledLink>
+          <s.StyledLink to="/delivery">Gdzie dowozimy?</s.StyledLink>
+          <s.StyledLink to="/contact">Kontakt</s.StyledLink>
         </s.LinksContainer>
         <s.ButtonsContainer>
           <NavButton label="Moje konto" background="white" icon={accountIcon} />
