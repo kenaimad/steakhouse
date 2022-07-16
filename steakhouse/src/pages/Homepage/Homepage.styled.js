@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { Colors } from '../../utils/palette';
 
 export const Container = styled.div`
-    background-color: yellow;
+    background-color:${Colors.primaryBackground};
     height: 95vh;
 `
