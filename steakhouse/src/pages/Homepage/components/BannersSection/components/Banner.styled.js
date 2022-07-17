@@ -59,13 +59,11 @@ export const Description = styled.div`
 
 export const IconsContainer = styled.div`
   display: flex;
+  width: 100%;
   margin: 5% 0;
 
   a {
     margin-right: 1%;
-    @media (max-width: 450px) {
-      width: 5%;
-    }
   }
 
   img {
