@@ -29,6 +29,7 @@ export const LinkInButton = styled(Link)`
   font-weight: 400;
   font-size: 13px;
   transition: all 0.2s ease-in;
+  color: black;
   color: ${(props) => props.color};
 
   &.active {
