@@ -1,4 +1,4 @@
-import BrandsBar from './components/BrandsSwiper/BrandsBar/BrandsBar';
+//import BrandsBar from './components/BrandsSwiper/BrandsBar/BrandsBar';
 import Slider from './components/Swiper/Slider';
 import BannersSection from './components/BannersSection/BannersSection';
 import * as s from './Homepage.styled';

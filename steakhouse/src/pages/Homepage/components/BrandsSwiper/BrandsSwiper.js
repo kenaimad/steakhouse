@@ -7,13 +7,6 @@ import { Autoplay, FreeMode } from 'swiper';
 import * as s from './BrandsSwiper.styled';
 
 const BrandsSwiper = () => {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<div class="' + className + '">' + (index + 1) + '</div>';
-    },
-  };
-
   const getInitialNumber = () => {
     if (document.documentElement.clientWidth < 1080) {
       return 1;
