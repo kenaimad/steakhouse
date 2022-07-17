@@ -1,7 +1,7 @@
-import OrderButton from '../../../../utils/OrderButton/OrderButton';
+import { OrderButton } from '../../../../../utils/OrderButton/OrderButton.styled';
 import * as s from './SliderSection.styled';
 import img from './images/Bitmap@2x.png';
-import HighlightedText from '../../../../utils/HighlightedText/HighlightedText';
+import HighlightedText from '../../../../../utils/HighlightedText/HighlightedText';
 
 const SliderSection = () => {
   return (
@@ -17,12 +17,8 @@ const SliderSection = () => {
                 końca lutego.
               </p>
             </h1>
-            <OrderButton />
-            <s.DotsContainer>
-              <div />
-              <div />
-              <div />
-            </s.DotsContainer>
+            <OrderButton>Zamów online</OrderButton>
+ 
           </s.Description>
         </s.DescriptionContainer>
         <s.ImageContainer>
@@ -34,3 +30,4 @@ const SliderSection = () => {
 };
 
 export default SliderSection;
+
