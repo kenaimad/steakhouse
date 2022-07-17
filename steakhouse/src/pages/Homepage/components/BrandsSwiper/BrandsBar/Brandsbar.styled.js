@@ -25,4 +25,6 @@ export const BrandsBarStyled = styled.section`
   img {
     //height: 100%;
   }
+
+  
 `;

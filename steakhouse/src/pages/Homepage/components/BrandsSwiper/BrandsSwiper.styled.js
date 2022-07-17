@@ -1,19 +1,26 @@
 import styled from 'styled-components';
 
-export const StyledSwiperContainer = styled.div`
+export const StyledBrandsSwiper = styled.div`
+  width: 100%;
+  height: 37px;
+
   .swiper-wrapper {
-    position: relative;
-  }
-
-  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 
-    div {
-      height: 8px;
-      width: 8px;
-      border-radius: 100%;
-      border: 1px solid black;
-      font-size: 0px;
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      a {
+        display: inline-block;
+        height: 100%;
+        text-align: center;
+      }
     }
   }
 
@@ -21,7 +28,7 @@ export const StyledSwiperContainer = styled.div`
     position: absolute;
     left: 5%;
     top: 70%;
-    
+    font-size: 0px;
 
     @media (max-width: 800px) {
       top: 55%;
