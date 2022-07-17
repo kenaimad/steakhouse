@@ -9,17 +9,35 @@ html {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (min-width: 300px) {
   html {
-    font-size:12px;
+    font-size: 9px;
   }
-} 
+}
 
-@media only screen and (max-width: 650px) {
+@media only screen and (min-width: 450px) {
   html {
-    font-size:16px;
+    font-size: 11px;
   }
-} 
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+}
 
 @media only screen and (min-width: 800px) {
   html {

@@ -10,6 +10,7 @@ export const BannerStyled = styled.div`
 
   @media (max-width: 800px) {
     width: 100%;
+    margin: 10px 0px;
   }
 `;
 
@@ -29,7 +30,6 @@ export const Description = styled.div`
 
   @media (max-width: 800px) {
     width: 55%;
-
   }
 
   @media (max-width: 1200px) {
@@ -38,6 +38,11 @@ export const Description = styled.div`
 
   @media (max-width: 1100px) {
     top: 1%;
+  }
+
+  @media (max-width: 450px) {
+    top: 0;
+    width: 50%;
   }
 
   h1 {
@@ -59,6 +64,9 @@ export const IconsContainer = styled.div`
 
   img {
     margin-right: 3%;
+    @media (max-width: 450px) {
+    width: 5%;
+  }
   }
 
 `

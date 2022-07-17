@@ -6,9 +6,11 @@ export const OrderButton = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${Colors.buttonsBackground};
-  width: 15vw;
+  width: 10vw;
+  height: 15%;
   min-width: 100px;
-  height: 49px;
+  min-height: 40px;
+  //height: 49px;
   border-radius: 10px;
   color: white;
   font-family: "Sofia Pro";
