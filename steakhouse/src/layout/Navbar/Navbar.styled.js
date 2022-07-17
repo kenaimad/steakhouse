@@ -49,6 +49,16 @@ export const StyledLink = styled(Link)`
   color: black;
   //font-family:
 
+  &.active {
+    background-color: white;
+    text-decoration: underline;
+    color: black;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
   @media (max-width: 1200px) {
     display: flex;
     height: 16.5%;
@@ -57,12 +67,6 @@ export const StyledLink = styled(Link)`
     align-items: center;
     background-color: ${Colors.primaryBackground};
     border-top: 1px solid black;
-
-    &.active {
-      background-color: white;
-      text-decoration: underline;
-      color: black;
-    }
   }
 `;
 

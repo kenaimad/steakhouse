@@ -4,7 +4,7 @@ const NavButton = (props) => {
   return (
     <s.NavButtonStyled background={props.background} color={props.color}>
       <img src={props.icon} alt="Order icon" />
-      <div>{props.label}</div>
+      <s.LinkInButton to={props.destination} color={props.color}>{props.label}</s.LinkInButton>
     </s.NavButtonStyled>
   );
 };

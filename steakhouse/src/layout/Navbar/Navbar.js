@@ -32,10 +32,21 @@ const Navbar = () => {
           <s.StyledLink to="/contact">Kontakt</s.StyledLink>
         </s.LinksContainer>
         <s.ButtonsContainer>
-          <NavButton label="Moje konto" background="white" icon={accountIcon} />
-          <NavButton label="Koszyk" background="white" icon={cartIcon} />
           <NavButton
+            destination="/account"
             label="Moje konto"
+            background="white"
+            icon={accountIcon}
+          />
+          <NavButton
+            destination="cart"
+            label="Koszyk"
+            background="white"
+            icon={cartIcon}
+          />
+          <NavButton
+            destination="order"
+            label="Zamów"
             background={Colors.buttonsBackground}
             color="white"
             icon={orderIcon}

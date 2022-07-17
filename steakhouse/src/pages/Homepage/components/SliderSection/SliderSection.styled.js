@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Colors } from '../../../../utils/palette';
 
 export const SliderSectionStyled = styled.section`
   display: flex;
