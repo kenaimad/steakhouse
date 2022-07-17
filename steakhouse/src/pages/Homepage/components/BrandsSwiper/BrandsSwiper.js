@@ -3,15 +3,15 @@ import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
-import { Autoplay, FreeMode } from 'swiper';
+import { Autoplay } from 'swiper';
 import * as s from './BrandsSwiper.styled';
 
 const BrandsSwiper = () => {
   const getInitialNumber = () => {
-    if (document.documentElement.clientWidth < 1080) {
-      return 1;
+    if (document.documentElement.clientWidth < 800) {
+      return 3;
     } else {
-      return 6;
+      return 5;
     }
   };
 
@@ -34,8 +34,7 @@ const BrandsSwiper = () => {
       <Swiper
         slidesPerView={slidesNum}
         spaceBetween={10}
-        modules={[Autoplay, FreeMode]}
-        freeMode={true}
+        modules={[Autoplay]}
         autoplay={true}
         className="mySwiper"
       >
@@ -48,25 +47,25 @@ const BrandsSwiper = () => {
         <SwiperSlide>
           {' '}
           <a href="/#">
-            <img src={require('./BrandsBar/icons/2.png')} alt="Pyszne.pl" />
+            <img src={require('./BrandsBar/icons/2.png')} alt="DeliGoo" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           {' '}
           <a href="/#">
-            <img src={require('./BrandsBar/icons/3.png')} alt="Pyszne.pl" />
+            <img src={require('./BrandsBar/icons/3.png')} alt="Glovo" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           {' '}
           <a href="/#">
-            <img src={require('./BrandsBar/icons/4.png')} alt="Pyszne.pl" />
+            <img src={require('./BrandsBar/icons/4.png')} alt="UberEats" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           {' '}
           <a href="/#">
-            <img src={require('./BrandsBar/icons/5.png')} alt="Pyszne.pl" />
+            <img src={require('./BrandsBar/icons/5.png')} alt="BoltFood" />
           </a>
         </SwiperSlide>
       </Swiper>
