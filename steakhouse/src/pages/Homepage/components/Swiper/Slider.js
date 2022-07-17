@@ -5,7 +5,6 @@ import SliderSection from './SliderSection/SliderSection';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-
 import * as s from './Slider.styled';
 // import required modules
 import { Pagination, Autoplay } from 'swiper';
@@ -15,8 +14,8 @@ import 'swiper/css/autoplay';
 const Slider = () => {
   const pagination = {
     clickable: true,
-    renderBullet: function () {
-      return '<span></span>';
+    renderBullet: function (index, className) {
+      return '<div class="' + className + '">' + (index + 1) + "</div>";
     },
   };
 
