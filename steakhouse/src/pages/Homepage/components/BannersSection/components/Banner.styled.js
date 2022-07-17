@@ -50,23 +50,24 @@ export const Description = styled.div`
     margin-bottom: 20px;
   }
 
-  p{
+  p {
     font-size: 0.8rem;
     width: 90%;
     margin: 0;
   }
-
 `;
 
 export const IconsContainer = styled.div`
   display: flex;
   margin: 5% 0;
 
-  img {
-    margin-right: 3%;
+  a {
+    margin-right: 1%;
     @media (max-width: 450px) {
-    width: 5%;
-  }
+      width: 5%;
+    }
   }
 
-`
+  img {
+  }
+`;

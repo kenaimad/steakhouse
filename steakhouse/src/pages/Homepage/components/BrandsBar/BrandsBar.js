@@ -4,11 +4,21 @@ const BrandsBar = () => {
   return (
     <s.BrandsBarStyled>
       <div>
-        <img src={require('./icons/1.png')} alt="Pyszne.pl"/>
-        <img src={require('./icons/2.png')} alt="DeliGoo"/>
-        <img src={require('./icons/3.png')} alt="Glovo"/>
-        <img src={require('./icons/4.png')} alt="UberEats"/>
-        <img src={require('./icons/5.png')} alt="BoltFood"/>
+        <a href="/#">
+          <img src={require('./icons/1.png')} alt="Pyszne.pl" />
+        </a>
+        <a href="/#">
+          <img src={require('./icons/2.png')} alt="DeliGoo" />
+        </a>
+        <a href="/#">
+          <img src={require('./icons/3.png')} alt="Glovo" />
+        </a>
+        <a href="/#">
+          <img src={require('./icons/4.png')} alt="UberEats" />
+        </a>
+        <a href="/#">
+          <img src={require('./icons/5.png')} alt="BoltFood" />
+        </a>
       </div>
     </s.BrandsBarStyled>
   );
