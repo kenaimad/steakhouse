@@ -10,7 +10,7 @@ export const NavContainer = styled.div`
   left: 0;
   justify-content: space-between;
   width: 100%;
-  height: 4rem;
+  height: 70px;
   z-index: 10;
   background-color: white;
 `;
@@ -21,6 +21,10 @@ export const LinksContainer = styled.div`
   height: 100%;
   margin-left: 5%;
 
+  img {
+    margin: 5px 0;
+  }
+
   @media (max-width: 1200px) {
     flex-flow: column nowrap;
     background-color: white;
@@ -28,10 +32,10 @@ export const LinksContainer = styled.div`
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     top: 0;
     right: 0;
-    height: 90vh;
+    height: calc(100vh - 70px);
     width: 100vw;
-    margin-top: 4rem;
-    background-color: black;
+    margin-top: 70px;
+    //background-color: black;
     z-index: 1;
   }
 `;
@@ -42,6 +46,7 @@ export const StyledLink = styled(Link)`
   font-weight: 400;
   font-size: 14px;
   transition: all 0.2s ease-in;
+  color: black;
   //font-family:
 
   @media (max-width: 1200px) {

@@ -6,7 +6,8 @@ export const OrderButton = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${Colors.buttonsBackground};
-  width: 204px;
+  width: 15vw;
+  min-width: 100px;
   height: 49px;
   border-radius: 10px;
   color: white;

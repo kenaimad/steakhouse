@@ -5,28 +5,46 @@ export const SliderSectionStyled = styled.section`
   display: flex;
   width: 100%;
   position: relative;
-  
+
+  @media (max-width: 800px) {
+    width: 100%;
+    flex-direction: column;
+  }
 `;
 
 export const DescriptionContainer = styled.div`
   width: 50%;
-  height: 100%;
+  //height: 100%;
   overflow: hidden;
   background-color: ${Colors.primaryBackground};
+
+  @media (max-width: 800px) {
+    //padding-top: 5vh;
+    width: 100%;
+    order: 2;
+  }
 `;
 
 export const Description = styled.div`
   position: absolute;
   left: 5%;
-  top: 10%;
-  
+  top: 20%;
+
+  @media (max-width: 800px) {
+      position: static;
+      display: flex;
+      flex-direction: column;
+      margin-left: 15%;
+      width: 100%;
+    //align-items: ;
+  }
 
   h1 {
-    font-size: 2.6vw;
-    width: 60%;
+    font-size: 1.5rem;
+    width: 100%;
 
     p {
-      font-size: 1vw;
+      font-size: 1rem;
       width: 60%;
       font-weight: 300;
     }
@@ -44,8 +62,9 @@ export const DotsContainer = styled.div`
   margin-top: 5%;
   div {
     margin: 5px;
-    width: 8px;
-    height: 8px;
+    margin-bottom: 20px;
+    width: 5px;
+    height: 5px;
     border-radius: 100%;
     background-color: white;
     border: 1px solid black;
@@ -60,5 +79,10 @@ export const ImageContainer = styled.div`
   img {
     width: 100%;
     height: 100%;
+  }
+
+  @media (max-width: 800px) {
+    width: 100%;
+    max-width: 100%;
   }
 `;
