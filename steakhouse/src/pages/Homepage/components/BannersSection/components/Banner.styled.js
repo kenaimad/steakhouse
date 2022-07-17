@@ -3,9 +3,13 @@ import styled from 'styled-components';
 export const BannerStyled = styled.div`
   position: relative;
   width: 49%;
-  margin-bottom: 30px;
+  margin: 10px;
   height: 400px;
   border-radius: 7px;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const backgroundImage = styled.img`
@@ -22,13 +26,18 @@ export const Description = styled.div`
   top: 20%;
   color: white;
 
+  @media (max-width: 800px) {
+    width: 55%;
+
+  }
+
   h1 {
-    font-size: 1.4vw;
+    font-size: 1.6rem;
     margin-bottom: 20px;
   }
 
   p{
-    font-size: 1vw;
+    font-size: 0.6rem;
     width: 90%;
     margin: 0;
   }
