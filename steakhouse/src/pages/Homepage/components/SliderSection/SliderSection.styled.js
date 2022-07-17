@@ -14,9 +14,8 @@ export const SliderSectionStyled = styled.section`
 
 export const DescriptionContainer = styled.div`
   width: 50%;
-  //height: 100%;
   overflow: hidden;
-  background-color: ${Colors.primaryBackground};
+
 
   @media (max-width: 800px) {
     //padding-top: 5vh;

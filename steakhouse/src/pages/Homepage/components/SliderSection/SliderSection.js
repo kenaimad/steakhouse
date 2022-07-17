@@ -1,6 +1,7 @@
 import OrderButton from '../../../../utils/OrderButton/OrderButton';
 import * as s from './SliderSection.styled';
 import img from './images/Bitmap@2x.png';
+import HighlightedText from '../../../../utils/HighlightedText/HighlightedText';
 
 const SliderSection = () => {
   return (
@@ -9,7 +10,7 @@ const SliderSection = () => {
         <s.DescriptionContainer>
           <s.Description>
             <h1>
-              <span>Rabat 10%</span> na pierwsze zamówienie!
+              <HighlightedText background="black" text="Rabat 10%" /> na pierwsze zamówienie!
               <p>
                 Do 20 stycznia złóż zamówienie na stronie i skorzystaj z
                 <b> promocji -10%</b>. Spiesz się. Czas trwania promocji do
