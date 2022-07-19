@@ -40,27 +40,27 @@ const BrandsSwiper = () => {
       >
         <SwiperSlide>
           <a href="/#">
-            <img src={require('./BrandsBar/icons/1.png')} alt="Pyszne.pl" />
+            <img src={require('./icons/1.png')} alt="Pyszne.pl" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="/#">
-            <img src={require('./BrandsBar/icons/2.png')} alt="DeliGoo" />
+            <img src={require('./icons/2.png')} alt="DeliGoo" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="/#">
-            <img src={require('./BrandsBar/icons/3.png')} alt="Glovo" />
+            <img src={require('./icons/3.png')} alt="Glovo" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="/#">
-            <img src={require('./BrandsBar/icons/4.png')} alt="UberEats" />
+            <img src={require('./icons/4.png')} alt="UberEats" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="/#">
-            <img src={require('./BrandsBar/icons/5.png')} alt="BoltFood" />
+            <img src={require('./icons/5.png')} alt="BoltFood" />
           </a>
         </SwiperSlide>
       </Swiper>
