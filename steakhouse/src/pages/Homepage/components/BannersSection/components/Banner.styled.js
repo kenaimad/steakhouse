@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { OrderButton } from '../../../../../utils/OrderButton/OrderButton.styled';
+
 
 export const BannerStyled = styled.div`
   position: relative;
@@ -51,7 +53,7 @@ export const Description = styled.div`
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     width: 90%;
     margin: 0;
   }
@@ -59,13 +61,23 @@ export const Description = styled.div`
 
 export const IconsContainer = styled.div`
   display: flex;
-  width: 100%;
+  width: 50%;
   margin: 5% 0;
 
+  @media (max-width: 600px) {
+    margin: 2% 0;
+  }
+
   a {
-    margin-right: 1%;
+    width: 15%;
   }
 
   img {
+    max-width: 100%;
+
   }
 `;
+
+export const StyledButton = styled(OrderButton)`
+
+`

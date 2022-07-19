@@ -1,4 +1,3 @@
-import { OrderButton } from '../../../../../utils/OrderButton/OrderButton.styled';
 import * as s from './Banner.styled';
 
 const Banner = (props) => {
@@ -14,7 +13,7 @@ const Banner = (props) => {
             ))}
           </s.IconsContainer>
         )}
-        <OrderButton>Zamów online</OrderButton>
+        <s.StyledButton>Zamów online</s.StyledButton>
       </s.Description>
       <s.backgroundImage src={props.background} />
     </s.BannerStyled>
