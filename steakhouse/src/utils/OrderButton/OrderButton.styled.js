@@ -10,7 +10,6 @@ export const OrderButton = styled.div`
   height: 15%;
   min-width: 100px;
   min-height: 40px;
-  //height: 49px;
   border-radius: 10px;
   color: white;
   font-family: "Sofia Pro";

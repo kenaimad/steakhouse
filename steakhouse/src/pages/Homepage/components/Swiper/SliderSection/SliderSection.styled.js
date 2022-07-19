@@ -17,7 +17,6 @@ export const DescriptionContainer = styled.div`
 
 
   @media (max-width: 800px) {
-    //padding-top: 5vh;
     width: 100%;
     order: 2;
   }
@@ -34,7 +33,6 @@ export const Description = styled.div`
       flex-direction: column;
       margin-left: 15%;
       width: 100%;
-    //align-items: ;
   }
 
   h1 {
