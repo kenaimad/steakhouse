@@ -1,5 +1,6 @@
 # Aplikacja webowa dla restauracji
-Live demo: https://62d473f9f8d67f0008ee5344--steakhouse1007.netlify.app/
+Live demo: https://steakhouse1007.netlify.app
+
 
 Użyte technologie:
 - React
