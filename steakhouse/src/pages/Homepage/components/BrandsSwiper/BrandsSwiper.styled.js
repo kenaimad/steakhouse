@@ -9,12 +9,10 @@ export const StyledBrandsSwiper = styled.div`
     align-items: center;
     height: 100%;
 
- 
     .swiper-slide {
       display: flex;
       justify-content: center;
       align-items: center;
     }
   }
-
 `;

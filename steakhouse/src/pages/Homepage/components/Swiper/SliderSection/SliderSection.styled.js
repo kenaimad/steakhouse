@@ -31,8 +31,10 @@ export const Description = styled.div`
       position: static;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       margin-left: 15%;
       width: 100%;
+      height: 300px;
   }
 
   h1 {
